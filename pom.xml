@@ -58,7 +58,6 @@
                             <goal>check</goal>
                         </goals>
                     </execution>
-
                 </executions>
                 <configuration>
                     <rules>
@@ -66,9 +65,9 @@
                             <element>CLASS</element>
                             <limits>
                                 <limit>
-                                    <counter>LINE</counter>
+                                    <counter>INSTRUCTION</counter>
                                     <value>COVEREDRATIO</value>
-                                    <minimum>0.8</minimum>
+                                    <minimum>100%</minimum>
                                 </limit>
                             </limits>
                         </rule>
